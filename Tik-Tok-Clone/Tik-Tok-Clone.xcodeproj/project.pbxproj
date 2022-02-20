@@ -11,6 +11,7 @@
 		C346777C27BEF29C0001D271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346777B27BEF29C0001D271 /* ContentView.swift */; };
 		C346777E27BEF29D0001D271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C346777D27BEF29D0001D271 /* Assets.xcassets */; };
 		C346778127BEF29D0001D271 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C346778027BEF29D0001D271 /* Preview Assets.xcassets */; };
+		C346778827C2428E0001D271 /* LoadingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346778727C2428E0001D271 /* LoadingActivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C346777B27BEF29C0001D271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C346777D27BEF29D0001D271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C346778027BEF29D0001D271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C346778727C2428E0001D271 /* LoadingActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingActivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				C346777B27BEF29C0001D271 /* ContentView.swift */,
 				C346777D27BEF29D0001D271 /* Assets.xcassets */,
 				C346777F27BEF29D0001D271 /* Preview Content */,
+				C346778727C2428E0001D271 /* LoadingActivity.swift */,
 			);
 			path = "Tik-Tok-Clone";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C346778827C2428E0001D271 /* LoadingActivity.swift in Sources */,
 				C346777C27BEF29C0001D271 /* ContentView.swift in Sources */,
 				C346777A27BEF29C0001D271 /* Tik_Tok_CloneApp.swift in Sources */,
 			);
