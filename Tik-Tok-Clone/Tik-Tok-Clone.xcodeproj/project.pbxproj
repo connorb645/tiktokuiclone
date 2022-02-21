@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14E5A98927C44FAC00C6430F /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E5A98827C44FAC00C6430F /* VideoPlayer.swift */; };
+		14E5A98B27C4556F00C6430F /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E5A98A27C4556F00C6430F /* VideoPlayerView.swift */; };
 		900C18DD27C26F77001FCA11 /* ButtonListView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900C18DC27C26F76001FCA11 /* ButtonListView.swift.swift */; };
 		900C18DF27C26F95001FCA11 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900C18DE27C26F95001FCA11 /* ProfileButtonView.swift */; };
 		900C18E127C26FAD001FCA11 /* LikeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900C18E027C26FAD001FCA11 /* LikeButtonView.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14E5A98827C44FAC00C6430F /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		14E5A98A27C4556F00C6430F /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		900C18DC27C26F76001FCA11 /* ButtonListView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonListView.swift.swift; sourceTree = "<group>"; };
 		900C18DE27C26F95001FCA11 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
 		900C18E027C26FAD001FCA11 /* LikeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonView.swift; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 				900C18F527C29D5A001FCA11 /* VideoPreviewImage.swift */,
 				900C18F727C2A030001FCA11 /* PostView.swift */,
 				900C18F927C2B99C001FCA11 /* TopRowButtons.swift */,
+				14E5A98A27C4556F00C6430F /* VideoPlayerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				900C18ED27C27510001FCA11 /* GlobalHelpers.swift */,
+				14E5A98827C44FAC00C6430F /* VideoPlayer.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -200,8 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E5A98927C44FAC00C6430F /* VideoPlayer.swift in Sources */,
 				900C18E727C26FE4001FCA11 /* MusicButtonView.swift in Sources */,
 				C346778827C2428E0001D271 /* LoadingActivity.swift in Sources */,
+				14E5A98B27C4556F00C6430F /* VideoPlayerView.swift in Sources */,
 				900C18E327C26FBE001FCA11 /* CommentButtonView.swift in Sources */,
 				900C18E527C26FCE001FCA11 /* ShareButtonView.swift in Sources */,
 				900C18FA27C2B99C001FCA11 /* TopRowButtons.swift in Sources */,

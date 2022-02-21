@@ -14,9 +14,12 @@ struct TikTokView: View {
     
     var body: some View {
         ZStack {
-            VideoPreviewImage(tikTok: $tikTok)
-                .frame(maxWidth: screen.width, maxHeight: screen.height)
+            VideoPlayerView(videoURL: tikTok.videoURL)
                 .edgesIgnoringSafeArea(.all)
+            
+            /*VideoPreviewImage(tikTok: $tikTok)
+                .frame(maxWidth: screen.width, maxHeight: screen.height)
+                .edgesIgnoringSafeArea(.all)*/
             
             ButtonListView(tikTok: $tikTok)
                 .padding(.bottom, 20)

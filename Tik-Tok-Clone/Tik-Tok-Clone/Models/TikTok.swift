@@ -11,7 +11,7 @@ struct TikTok: Identifiable {
     let id: UUID = UUID()
     var profile: Profile
     let postDescription: String
-    let videoURL: URL
+    var videoURL: String
     let previewImageName: String
     let song: Song
     var likes: Int
