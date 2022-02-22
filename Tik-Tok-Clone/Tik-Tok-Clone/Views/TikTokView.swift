@@ -22,7 +22,7 @@ struct TikTokView: View {
                 .edgesIgnoringSafeArea(.all)*/
             
             ButtonListView(tikTok: $tikTok)
-                .padding(.bottom, 20)
+                .padding(.bottom, 36)
             
             PostView(tikTok: $tikTok)
         }

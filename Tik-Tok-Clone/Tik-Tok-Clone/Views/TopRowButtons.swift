@@ -11,6 +11,12 @@ struct TopRowButtons: View {
     var body: some View {
         VStack {
             HStack(spacing: 10, content: {
+                Button {
+                    // Do Something?
+                } label: {
+                    EmptyView()
+                }
+                .frame(width: 25, height: 25)
                 Spacer()
                 Button {
                     // Do Something?
@@ -31,8 +37,10 @@ struct TopRowButtons: View {
                     Image(systemName: "magnifyingglass")
                         .font(.system(size: 25, weight: .thin))
                 }
-                .padding(.trailing, 10)
-            }).foregroundColor(.white)
+                .frame(width: 25, height: 25)
+            })
+                .padding(.horizontal)
+                .foregroundColor(.white)
             Spacer()
         }
     }

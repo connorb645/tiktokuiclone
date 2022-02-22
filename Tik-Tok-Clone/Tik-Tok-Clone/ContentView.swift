@@ -14,19 +14,36 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment: .top) {
             
-            TopRowButtons()
+            Color.black.ignoresSafeArea()
             
-            ScrollView(.vertical, showsIndicators: false, content: {
-                ForEach($tikTokList) { tikTok in
-                    LazyVStack(spacing: 0) {
+            TopRowButtons()
+                .zIndex(1)
+            
+            GeometryReader { proxy in
+                TabView {
+                    ForEach($tikTokList) { tikTok in
                         TikTokView(tikTok: tikTok)
-                            .frame(width: screen.width, height: screen.height)
+                            .offset(x: 6.5)
+                            .rotationEffect(.degrees(-90), anchor: .center)
+                            .frame(width: proxy.size.width,
+                                   height: proxy.size.height)
                     }
+                    
                 }
-            })
-                .edgesIgnoringSafeArea(.all)
-                .zIndex(-1)
+                .frame(
+                    width: proxy.size.height,
+                    height: proxy.size.width
+                )
+                .rotationEffect(.degrees(90), anchor: .topLeading)
+                .offset(x: proxy.size.width)
+                .tabViewStyle(
+                    PageTabViewStyle(indexDisplayMode: .never)
+                )
+                
+            }
+            .edgesIgnoringSafeArea(.vertical)
         }
+        
     }
 }
 

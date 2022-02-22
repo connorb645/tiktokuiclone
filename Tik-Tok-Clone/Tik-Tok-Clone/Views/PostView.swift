@@ -30,8 +30,8 @@ struct PostView: View {
             Spacer()
         }
         .foregroundColor(.white)
-        .padding(.bottom, 20)
-        .padding(.leading, 10)
+        .padding(.bottom, 36)
+        .padding(.leading, 16)
     }
 }
 

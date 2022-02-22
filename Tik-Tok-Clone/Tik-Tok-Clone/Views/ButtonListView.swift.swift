@@ -22,7 +22,7 @@ struct ButtonListView: View {
                 ShareButtonView(tikTok: $tikTok)
                 MusicButtonView(tikTok: $tikTok)
             })
-                .padding(.trailing, 10)
+                .padding(.trailing, 16)
         }
     }
 }

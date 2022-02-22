@@ -27,9 +27,11 @@ struct MusicButtonView: View {
                 .clipShape(Circle())
         })
             .rotationEffect(.degrees(angle))
-            .animation(.linear(duration: 2).repeatForever(autoreverses: false), value: angle)
+            .animation(.linear(duration: 4).repeatForever(autoreverses: false), value: angle)
             .onAppear {
-                angle += 360
+                if angle == 0 {
+                    angle += 360
+                }
             }
     }
 }
